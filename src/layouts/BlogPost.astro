@@ -17,9 +17,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 		<style>
 			main {
-				width: calc(100% - 2em);
+				width: 100%;
 				max-width: 100%;
 				margin: 0;
+				padding: 0;
 			}
 			.hero-image {
 				width: 100%;
@@ -34,7 +35,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.prose {
 				width: var(--max-width);
-				max-width: calc(100% - 2em);
+				max-width: calc(100% - 2rem);
 				margin: auto;
 				padding: var(--spacing-md);
 				color: var(--text-primary);
@@ -72,6 +73,40 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				margin-bottom: var(--spacing-md);
 				font-size: 1.05em;
 				line-height: 1.6;
+			}
+			@media (max-width: 768px) {
+				.prose {
+					max-width: 100%;
+					padding: var(--spacing-md);
+				}
+				.hero-image {
+					margin-bottom: var(--spacing-md);
+				}
+				.hero-image img {
+					border-radius: var(--radius-sm);
+				}
+				.article-header h1 {
+					font-size: 1.5em;
+				}
+				.meta {
+					flex-wrap: wrap;
+					gap: var(--spacing-sm);
+				}
+				.post-cta {
+					padding: var(--spacing-md);
+					margin: var(--spacing-xl) 0 var(--spacing-md);
+				}
+				.post-cta p {
+					font-size: 0.95em;
+				}
+			}
+			@media (max-width: 480px) {
+				.prose {
+					padding: var(--spacing-sm);
+				}
+				.article-header h1 {
+					font-size: 1.3em;
+				}
 			}
 		</style>
 	</head>
