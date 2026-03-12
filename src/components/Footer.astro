@@ -1,0 +1,66 @@
+---
+import { APP_URL, LP_URL } from '../consts';
+const today = new Date();
+---
+
+<footer>
+	<div class="dark-pack">
+		<p>
+			Portions of the materials are the copyrights and trademarks of Paradox Interactive AB,
+			and are used with permission. All rights reserved.
+			For more information please visit <a href="https://worldofdarkness.com" target="_blank" rel="noopener">worldofdarkness.com</a>.
+			This site is not affiliated with or endorsed by Paradox Interactive AB or any of its subsidiaries.
+		</p>
+	</div>
+	<div class="footer-links">
+		<a href={APP_URL} target="_blank" rel="noopener">Criar Ficha</a>
+		<a href={LP_URL} target="_blank" rel="noopener">VitaeSheet</a>
+		<a href="/">Início</a>
+		<a href="/blog">Artigos</a>
+		<a href="/about">Sobre</a>
+		<a href="/rss.xml">RSS</a>
+	</div>
+	<p class="copyright">
+		&copy; {today.getFullYear()} VitaeSheet. Conteúdo de fã para fãs.
+	</p>
+	<p class="made-with-love">Feito com amor ❤️ Gohadug_Ravnos</p>
+</footer>
+<style>
+	footer {
+		padding: 2em 1em 4em 1em;
+		background: var(--bg-card);
+		border-top: 1px solid var(--border);
+		color: var(--text-muted);
+		text-align: center;
+	}
+	.dark-pack {
+		max-width: 700px;
+		margin: 0 auto 2em auto;
+	}
+	.dark-pack a {
+		color: var(--text-secondary);
+	}
+	.footer-links {
+		display: flex;
+		justify-content: center;
+		gap: 2em;
+		margin-bottom: 1em;
+	}
+	.footer-links a {
+		text-decoration: none;
+		color: var(--text-secondary);
+		font-size: 0.9em;
+	}
+	.footer-links a:hover {
+		color: var(--blood-glow);
+	}
+	.copyright {
+		font-size: 0.8em;
+		margin: 0;
+	}
+	.made-with-love {
+		font-size: 0.8em;
+		margin: 0.5em 0 0;
+		opacity: 0.7;
+	}
+</style>

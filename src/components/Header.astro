@@ -1,0 +1,90 @@
+---
+import { SITE_TITLE, APP_URL, LP_URL } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<a href={LP_URL} class="logo-link" target="_blank" title="VitaeSheet — Fichas Digitais para RPG Vampiro">
+			<img src="/logo.svg" alt="VitaeSheet" class="logo-icon" width="28" height="28" />
+			<span class="logo-text">VitaeSheet</span>
+		</a>
+		<div class="internal-links">
+			<HeaderLink href="/">Início</HeaderLink>
+			<HeaderLink href="/blog">Artigos</HeaderLink>
+			<HeaderLink href="/about">Sobre</HeaderLink>
+		</div>
+		<div class="cta-nav">
+			<a href={APP_URL} target="_blank" class="nav-cta">Criar Ficha Grátis</a>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: var(--bg-card);
+		border-bottom: 1px solid var(--border);
+	}
+	.logo-link {
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+		text-decoration: none;
+		color: var(--blood-glow);
+		font-family: 'Cinzel', serif;
+		font-size: 1.1em;
+		font-weight: 700;
+		padding: 1em 0;
+		border-bottom: none !important;
+	}
+	.logo-link:hover {
+		color: var(--blood-light);
+	}
+	.logo-icon {
+		flex-shrink: 0;
+	}
+	.logo-text {
+		white-space: nowrap;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	nav a {
+		padding: 1em 0.5em;
+		color: var(--text-secondary);
+		border-bottom: 2px solid transparent;
+		text-decoration: none;
+		transition: color 0.2s ease, border-color 0.2s ease;
+	}
+	nav a:hover {
+		color: var(--text-primary);
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--blood);
+		color: var(--text-primary);
+	}
+	.nav-cta {
+		padding: 0.5em 1.2em !important;
+		background: var(--blood);
+		color: #fff !important;
+		border-radius: 6px;
+		font-size: 0.85em;
+		font-weight: 600;
+		border-bottom: none !important;
+	}
+	.nav-cta:hover {
+		background: var(--blood-light);
+		color: #fff !important;
+	}
+	@media (max-width: 720px) {
+		.cta-nav {
+			display: none;
+		}
+	}
+</style>
