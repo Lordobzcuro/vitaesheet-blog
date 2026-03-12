@@ -2,6 +2,7 @@
 title: 'Os 13 Clãs: Qual Vampiro Combina com Você?'
 description: 'Não sabe qual clã escolher? Conheça os 13 clãs do RPG Vampiro, suas forças, fraquezas e estilos de jogo — e descubra qual combina com seu jeito de jogar.'
 pubDate: 'Mar 12 2026'
+tags: ['Guia', 'Clãs']
 heroImage: '../../assets/hero-13-clas.png'
 ---
 

@@ -2,6 +2,7 @@
 title: 'Como Criar Sua Ficha de RPG Vampiro: Guia Completo para Iniciantes'
 description: 'Acabou de ser convidado para uma mesa e não sabe por onde começar? Aprenda passo a passo como montar seu personagem sem travar na criação.'
 pubDate: 'Mar 12 2026'
+tags: ['Guia']
 ---
 
 Você foi convidado pra uma mesa de RPG Vampiro. Abriu a ficha. E travou.

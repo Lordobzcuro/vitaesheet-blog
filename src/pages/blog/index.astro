@@ -9,6 +9,15 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const tagColorMap: Record<string, string> = {
+	'Guia': 'tag-guia',
+	'Clãs': 'tag-clas',
+	'Narração': 'tag-narracao',
+};
+function getTagClass(tag: string) {
+	return tagColorMap[tag] || 'tag-default';
+}
 ---
 
 <!doctype html>
@@ -30,6 +39,7 @@ const posts = (await getCollection('blog')).sort(
 			.page-header p {
 				color: var(--text-secondary);
 				font-size: 1.05em;
+				font-style: italic;
 			}
 			ul {
 				display: grid;
@@ -46,16 +56,40 @@ const posts = (await getCollection('blog')).sort(
 				padding: var(--spacing-lg) var(--spacing-xl);
 				background: var(--bg-card);
 				border: 1px solid var(--border);
-				border-radius: var(--radius-lg);
+				border-radius: 2px;
 				transition: all 0.25s ease;
 				height: 100%;
+				position: relative;
+			}
+			/* Blood left border */
+			ul li a::before {
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				width: 2px;
+				background: var(--blood);
+				border-radius: 2px 0 0 2px;
+				opacity: 0.6;
+				transition: opacity 0.25s ease;
+			}
+			ul li a:hover::before {
+				opacity: 1;
 			}
 			ul li a:hover {
-				border-color: var(--blood);
+				border-color: rgba(139, 0, 0, 0.3);
 				background: var(--bg-card-hover);
-				box-shadow: 0 4px 24px rgba(139, 0, 0, 0.1);
+				box-shadow: 0 4px 24px rgba(139, 0, 0, 0.08);
 				transform: translateY(-2px);
 				text-decoration: none;
+			}
+			.post-meta {
+				display: flex;
+				align-items: center;
+				gap: 0.6rem;
+				margin-bottom: var(--spacing-sm);
+				flex-wrap: wrap;
 			}
 			.title {
 				margin: 0 0 var(--spacing-sm);
@@ -64,16 +98,35 @@ const posts = (await getCollection('blog')).sort(
 				line-height: 1.35;
 			}
 			.date {
-				margin: 0 0 var(--spacing-xs);
 				color: var(--text-muted);
-				font-size: 0.82em;
-				font-weight: 500;
+				font-size: 0.75em;
+				font-family: 'Cinzel', serif;
+				letter-spacing: 1px;
 			}
 			.desc {
 				color: var(--text-secondary);
 				font-size: 0.9em;
 				margin: var(--spacing-sm) 0 0;
 				line-height: 1.6;
+				font-style: italic;
+			}
+			.card-footer {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				margin-top: auto;
+				padding-top: var(--spacing-md);
+			}
+			.read-more {
+				font-family: 'Cinzel', serif;
+				font-size: 0.65em;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				color: var(--gold);
+				transition: color 0.2s;
+			}
+			.read-more:hover {
+				color: var(--gold-dim);
 			}
 			@media (max-width: 720px) {
 				ul { grid-template-columns: 1fr; gap: var(--spacing-md); }
@@ -95,11 +148,19 @@ const posts = (await getCollection('blog')).sort(
 						posts.map((post) => (
 							<li>
 								<a href={`/blog/${post.id}/`}>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
+									<div class="post-meta">
+										{post.data.tags && (post.data.tags as string[]).map((tag: string) => (
+											<span class={`tag ${getTagClass(tag)}`}>{tag}</span>
+										))}
+										<span class="date">
+											<FormattedDate date={post.data.pubDate} />
+										</span>
+									</div>
 									<h4 class="title">{post.data.title}</h4>
 									<p class="desc">{post.data.description}</p>
+									<div class="card-footer">
+										<span class="read-more">Ler artigo &rarr;</span>
+									</div>
 								</a>
 							</li>
 						))

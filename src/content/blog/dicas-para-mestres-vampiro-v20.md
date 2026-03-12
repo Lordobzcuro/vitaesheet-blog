@@ -2,6 +2,7 @@
 title: '7 Problemas que Todo Mestre de RPG Vampiro Enfrenta (e Como Resolver)'
 description: 'Jogadores desengajados, combates sem peso, fichas desatualizadas — se você mestra Vampiro, já passou por isso. Aqui estão as soluções.'
 pubDate: 'Mar 12 2026'
+tags: ['Narração']
 ---
 
 Mestrar RPG Vampiro é diferente de qualquer outro sistema. Não é sobre matar monstros e subir de nível. É sobre política, horror pessoal e a luta constante de cada personagem contra o próprio monstro interior.

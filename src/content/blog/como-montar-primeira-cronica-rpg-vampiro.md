@@ -3,6 +3,7 @@ title: 'Como Montar Sua Primeira Crônica de RPG Vampiro (Do Zero à Primeira Se
 description: 'Quer narrar RPG Vampiro e não sabe por onde começar? Aprenda a montar sua crônica passo a passo — da cidade ao primeiro conflito.'
 pubDate: 'Mar 12 2026'
 heroImage: '../../assets/hero-cronica.png'
+tags: ['Guia', 'Narração']
 ---
 
 Você decidiu narrar. Talvez ninguém mais na mesa quis. Talvez você sempre quis contar histórias. Não importa o motivo — agora você é o Narrador.
