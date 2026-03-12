@@ -64,6 +64,36 @@ Tratar a ficha como um build de videogame. Colocar tudo em combate, ignorar o so
 
 RPG Vampiro é sobre política, horror pessoal e relações. A ficha mais interessante da mesa raramente é a mais forte.
 
+## Próximos Passos
+
+- Conheça os [13 Clãs](/blog/os-13-clas-qual-vampiro-combina-com-voce) e descubra qual combina com você
+- Veja como [montar sua primeira crônica](/blog/como-montar-primeira-cronica-rpg-vampiro) se for narrar
+- Confira os [7 problemas mais comuns de mestres](/blog/dicas-para-mestres-vampiro-v20) pra evitar armadilhas
+
+---
+
+## Perguntas Frequentes
+
+<details class="faq-item">
+<summary>Preciso ler o livro inteiro antes de criar minha ficha?</summary>
+<p>Não. Você precisa entender o básico: conceito do personagem, clã, atributos e habilidades. O resto pode vir com o tempo, conforme você joga.</p>
+</details>
+
+<details class="faq-item">
+<summary>Qual o melhor clã pra quem está começando?</summary>
+<p>Brujah e Gangrel são os mais diretos — têm disciplinas intuitivas e conceitos fáceis de entender. Mas o "melhor" é o que combina com a história que você quer contar.</p>
+</details>
+
+<details class="faq-item">
+<summary>Posso mudar minha ficha depois de começar a jogar?</summary>
+<p>Depende do narrador. Na maioria das mesas, pequenos ajustes são permitidos nas primeiras sessões. Depois, mudanças acontecem via XP e evolução natural do personagem.</p>
+</details>
+
+<details class="faq-item">
+<summary>O que acontece se eu errar na distribuição de pontos?</summary>
+<p>Nada catastrófico. Um personagem "mal construído" mecanicamente pode ser interessante narrativamente. Converse com seu narrador — a maioria permite ajustes.</p>
+</details>
+
 ---
 
 *Quer montar sua ficha sem se perder? O [VitaeSheet](https://app.vitaesheet.app) organiza tudo visualmente e calcula os pontos pra você.*

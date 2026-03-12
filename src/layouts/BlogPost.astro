@@ -5,6 +5,8 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import AuthorBio from '../components/AuthorBio.astro';
 import { APP_URL } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
@@ -52,10 +54,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.meta {
 				display: flex;
 				align-items: center;
-				gap: var(--spacing-md);
+				gap: var(--spacing-sm);
 				color: var(--text-muted);
 				font-size: 0.88em;
 				font-weight: 500;
+				flex-wrap: wrap;
+			}
+			.meta-sep {
+				color: var(--border-light);
+			}
+			.author strong {
+				color: var(--blood-glow);
 			}
 			.last-updated-on {
 				font-style: italic;
@@ -88,10 +97,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				.article-header h1 {
 					font-size: 1.5em;
 				}
-				.meta {
-					flex-wrap: wrap;
-					gap: var(--spacing-sm);
-				}
 				.post-cta {
 					padding: var(--spacing-md);
 					margin: var(--spacing-xl) 0 var(--spacing-md);
@@ -119,11 +124,13 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<div class="article-header">
 						<h1>{title}</h1>
 						<div class="meta">
+							<span class="author">Por <strong>Gohadug_Ravnos</strong></span>
+							<span class="meta-sep">&middot;</span>
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
 									<span class="last-updated-on">
-										· Atualizado em <FormattedDate date={updatedDate} />
+										&middot; Atualizado em <FormattedDate date={updatedDate} />
 									</span>
 								)
 							}
@@ -134,7 +141,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							<Image width={1020} height={510} src={heroImage} alt="" />
 						</div>
 					)}
+					<TableOfContents />
 					<slot />
+					<AuthorBio />
 					<div class="post-cta">
 						<p>Chega de fichas perdidas, anotações bagunçadas e XP calculado na mão. O VitaeSheet organiza tudo pra você — de graça.</p>
 						<a href={APP_URL} class="cta-button" target="_blank">Criar Minha Ficha</a>
@@ -143,5 +152,30 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			</article>
 		</main>
 		<Footer />
+	<script>
+		// Auto-generate FAQ JSON-LD from .faq-item elements
+		const faqItems = document.querySelectorAll('.faq-item');
+		if (faqItems.length > 0) {
+			const faqs = Array.from(faqItems).map(item => ({
+				"@type": "Question",
+				"name": item.querySelector('summary')?.textContent?.trim() || '',
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": item.querySelector('p')?.textContent?.trim() || ''
+				}
+			})).filter(f => f.name && f.acceptedAnswer.text);
+
+			if (faqs.length > 0) {
+				const script = document.createElement('script');
+				script.type = 'application/ld+json';
+				script.textContent = JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "FAQPage",
+					"mainEntity": faqs
+				});
+				document.head.appendChild(script);
+			}
+		}
+	</script>
 	</body>
 </html>

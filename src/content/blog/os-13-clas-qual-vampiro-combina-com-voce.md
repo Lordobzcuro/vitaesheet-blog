@@ -239,3 +239,35 @@ A pior parte de escolher um clã é preencher a ficha depois. Distribuir pontos,
 O **VitaeSheet** resolve isso. Ficha digital, automática, que salva na nuvem e sincroniza em tempo real com sua mesa.
 
 **[Criar minha ficha grátis no VitaeSheet](https://app.vitaesheet.app)**
+
+---
+
+## Próximos Passos
+
+- Aprenda a [criar sua ficha do zero](/blog/guia-completo-fichas-vampiro-v20)
+- Veja como [montar sua primeira crônica](/blog/como-montar-primeira-cronica-rpg-vampiro)
+- Confira os [7 erros que todo narrador comete](/blog/dicas-para-mestres-vampiro-v20)
+
+---
+
+## Perguntas Frequentes
+
+<details class="faq-item">
+<summary>Qual clã é mais forte no RPG Vampiro?</summary>
+<p>Não existe clã "mais forte". Cada um tem disciplinas e fraquezas únicas que funcionam melhor em contextos diferentes. Tremere domina em magia, Brujah em combate direto, Ventrue em política. O mais importante é escolher o clã que combina com seu estilo de jogo.</p>
+</details>
+
+<details class="faq-item">
+<summary>Posso jogar com um clã do Sabá na Camarilla?</summary>
+<p>Tecnicamente sim, mas depende do narrador e da crônica. Lasombra e Tzimisce são tradicionalmente do Sabá, mas existem antitribu (dissidentes) em ambos os lados. Converse com seu narrador antes de escolher.</p>
+</details>
+
+<details class="faq-item">
+<summary>Qual a diferença entre clã e linhagem de sangue?</summary>
+<p>Os 13 clãs são as linhagens principais, descendentes diretos dos Antediluvianos. Linhagens de sangue são ramificações menores (como Daughters of Cacophony ou Salubri) com disciplinas e fraquezas próprias, mas menos numerosas.</p>
+</details>
+
+<details class="faq-item">
+<summary>O clã define minha personalidade?</summary>
+<p>Não. O clã define seus poderes e fraqueza, mas não sua personalidade. Um Brujah pode ser calmo e estratégico. Um Ventrue pode ser humilde. O estereótipo do clã é o ponto de partida, não uma prisão.</p>
+</details>

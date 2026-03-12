@@ -1,0 +1,67 @@
+---
+// Componente de Bio do Autor — reforça E-E-A-T pro Google
+---
+
+<aside class="author-bio">
+	<div class="author-avatar">🩸</div>
+	<div class="author-info">
+		<p class="author-name">Gohadug_Ravnos</p>
+		<p class="author-desc">
+			Jogador e narrador de RPG Vampiro há mais de 10 anos. Criador do <a href="https://vitaesheet.app" target="_blank">VitaeSheet</a> — a ferramenta que faltava pra organizar fichas, XP e crônicas sem dor de cabeça. Quando não está numa mesa, está construindo ferramentas pra quem joga.
+		</p>
+	</div>
+</aside>
+
+<style>
+	.author-bio {
+		display: flex;
+		gap: var(--spacing-lg);
+		align-items: flex-start;
+		margin: var(--spacing-2xl) 0;
+		padding: var(--spacing-xl);
+		background: var(--bg-card);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-lg);
+		border-top: 2px solid var(--blood);
+	}
+	.author-avatar {
+		flex-shrink: 0;
+		width: 56px;
+		height: 56px;
+		border-radius: 50%;
+		background: var(--bg-surface);
+		border: 2px solid var(--blood);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.6em;
+	}
+	.author-info {
+		flex: 1;
+	}
+	.author-name {
+		font-family: 'Cinzel', serif;
+		font-size: 1.05em;
+		font-weight: 700;
+		color: var(--blood-glow);
+		margin: 0 0 var(--spacing-xs);
+	}
+	.author-desc {
+		font-size: 0.9em;
+		line-height: 1.65;
+		color: var(--text-secondary);
+		margin: 0;
+	}
+	.author-desc a {
+		color: var(--blood-glow);
+		font-weight: 600;
+	}
+	@media (max-width: 480px) {
+		.author-bio {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			padding: var(--spacing-md);
+		}
+	}
+</style>

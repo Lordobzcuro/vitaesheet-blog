@@ -1,0 +1,122 @@
+---
+// TOC é gerado automaticamente via JS a partir dos h2/h3 do artigo
+---
+
+<nav class="toc" id="toc">
+	<details open>
+		<summary class="toc-title">Neste artigo</summary>
+		<ol class="toc-list" id="toc-list"></ol>
+	</details>
+</nav>
+
+<script>
+	function buildTOC() {
+		const article = document.querySelector('.prose');
+		const tocList = document.getElementById('toc-list');
+		const toc = document.getElementById('toc');
+		if (!article || !tocList) return;
+
+		const headings = article.querySelectorAll('h2, h3');
+		if (headings.length < 2) {
+			if (toc) toc.style.display = 'none';
+			return;
+		}
+
+		headings.forEach((heading, i) => {
+			if (!heading.id) {
+				heading.id = 'secao-' + i;
+			}
+			const li = document.createElement('li');
+			li.className = heading.tagName === 'H3' ? 'toc-sub' : '';
+			const a = document.createElement('a');
+			a.href = '#' + heading.id;
+			a.textContent = heading.textContent;
+			a.addEventListener('click', (e) => {
+				e.preventDefault();
+				heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+				history.replaceState(null, '', '#' + heading.id);
+			});
+			li.appendChild(a);
+			tocList.appendChild(li);
+		});
+	}
+	buildTOC();
+</script>
+
+<style>
+	.toc {
+		margin: 0 0 var(--spacing-2xl);
+		padding: var(--spacing-lg);
+		background: var(--bg-card);
+		border: 1px solid var(--border);
+		border-radius: var(--radius-md);
+		border-left: 3px solid var(--blood);
+	}
+	.toc-title {
+		font-family: 'Cinzel', serif;
+		font-size: 0.95em;
+		font-weight: 700;
+		color: var(--text-primary);
+		cursor: pointer;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+	}
+	.toc-title::before {
+		content: '📜';
+		font-size: 1.1em;
+	}
+	.toc-title::-webkit-details-marker {
+		display: none;
+	}
+	details[open] .toc-title {
+		margin-bottom: var(--spacing-md);
+		padding-bottom: var(--spacing-sm);
+		border-bottom: 1px solid var(--border);
+	}
+	.toc-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		counter-reset: toc-counter;
+	}
+	.toc-list li {
+		counter-increment: toc-counter;
+		margin-bottom: 0;
+	}
+	.toc-list li a {
+		display: block;
+		padding: 6px 0;
+		color: var(--text-secondary);
+		font-size: 0.9em;
+		text-decoration: none;
+		transition: color 0.2s, padding-left 0.2s;
+		border-bottom: 1px solid rgba(255,255,255,0.03);
+	}
+	.toc-list li a::before {
+		counter-increment: none;
+		content: counter(toc-counter) ". ";
+		color: var(--blood);
+		font-weight: 600;
+	}
+	.toc-list li a:hover {
+		color: var(--blood-glow);
+		padding-left: 6px;
+		text-decoration: none;
+	}
+	.toc-list li.toc-sub a {
+		padding-left: 1.2em;
+		font-size: 0.85em;
+		color: var(--text-muted);
+	}
+	.toc-list li.toc-sub a::before {
+		content: '— ';
+		color: var(--border-light);
+	}
+	@media (max-width: 768px) {
+		.toc {
+			padding: var(--spacing-md);
+		}
+	}
+</style>

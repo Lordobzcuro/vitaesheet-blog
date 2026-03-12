@@ -78,6 +78,36 @@ Situação: "O Príncipe quer algo que está no porto. O Sabbat também. Os joga
 
 **Solução:** prepare situações com partes interessadas e motivações. Deixe os jogadores decidirem o caminho. Seu trabalho é reagir, não conduzir.
 
+## Próximos Passos
+
+- Aprenda a [montar sua primeira crônica](/blog/como-montar-primeira-cronica-rpg-vampiro) do zero
+- Ajude seus jogadores a [criar fichas](/blog/guia-completo-fichas-vampiro-v20) sem travar
+- Conheça os [13 Clãs](/blog/os-13-clas-qual-vampiro-combina-com-voce) pra ajudar na escolha dos jogadores
+
+---
+
+## Perguntas Frequentes
+
+<details class="faq-item">
+<summary>Quantas sessões uma crônica de RPG Vampiro dura?</summary>
+<p>Depende da história. Uma crônica curta pode ter 4-6 sessões. Crônicas longas podem durar meses ou anos. O importante é que cada arco tenha começo, meio e resolução.</p>
+</details>
+
+<details class="faq-item">
+<summary>Posso mestrar RPG Vampiro sem conhecer todas as regras?</summary>
+<p>Sim. Nenhum narrador domina 100% das regras. O que importa é manter a história fluindo. Quando surgir dúvida, tome uma decisão rápida e confira depois. Seus jogadores vão preferir ritmo a precisão.</p>
+</details>
+
+<details class="faq-item">
+<summary>Como lidar com jogadores que só querem combate?</summary>
+<p>Mostre que combate tem consequências graves: perda de Humanidade, atenção da Camarilla, Caçada de Sangue. Quando a violência custa caro, os jogadores naturalmente buscam outras soluções.</p>
+</details>
+
+<details class="faq-item">
+<summary>Quantos jogadores são ideais pra uma mesa de RPG Vampiro?</summary>
+<p>Entre 3 e 5 jogadores é o ideal. Menos que 3 limita a dinâmica social. Mais que 5 fica difícil dar atenção individual e manter o ritmo, especialmente em cenas de investigação e política.</p>
+</details>
+
 ---
 
 *Organizar fichas, calcular XP e manter a crônica em dia dá trabalho. O [VitaeSheet](https://app.vitaesheet.app) cuida da parte mecânica pra você focar no que importa: a história.*
