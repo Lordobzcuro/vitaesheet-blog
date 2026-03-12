@@ -4,63 +4,94 @@ const today = new Date();
 ---
 
 <footer>
-	<div class="dark-pack">
-		<p>
-			Portions of the materials are the copyrights and trademarks of Paradox Interactive AB,
-			and are used with permission. All rights reserved.
-			For more information please visit <a href="https://worldofdarkness.com" target="_blank" rel="noopener">worldofdarkness.com</a>.
-			This site is not affiliated with or endorsed by Paradox Interactive AB or any of its subsidiaries.
+	<div class="footer-inner">
+		<div class="footer-links">
+			<a href={APP_URL} target="_blank" rel="noopener">Criar Ficha</a>
+			<span class="divider">·</span>
+			<a href={LP_URL} target="_blank" rel="noopener">VitaeSheet</a>
+			<span class="divider">·</span>
+			<a href="/">Início</a>
+			<span class="divider">·</span>
+			<a href="/blog">Artigos</a>
+			<span class="divider">·</span>
+			<a href="/about">Sobre</a>
+			<span class="divider">·</span>
+			<a href="/rss.xml">RSS</a>
+		</div>
+		<div class="dark-pack">
+			<p>
+				Portions of the materials are the copyrights and trademarks of Paradox Interactive AB,
+				and are used with permission. All rights reserved.
+				For more information please visit <a href="https://worldofdarkness.com" target="_blank" rel="noopener">worldofdarkness.com</a>.
+				This site is not affiliated with or endorsed by Paradox Interactive AB or any of its subsidiaries.
+			</p>
+		</div>
+		<p class="copyright">
+			&copy; {today.getFullYear()} VitaeSheet. Conteúdo de fã para fãs.
 		</p>
+		<p class="made-with-love">Feito com amor ❤️ Gohadug_Ravnos</p>
 	</div>
-	<div class="footer-links">
-		<a href={APP_URL} target="_blank" rel="noopener">Criar Ficha</a>
-		<a href={LP_URL} target="_blank" rel="noopener">VitaeSheet</a>
-		<a href="/">Início</a>
-		<a href="/blog">Artigos</a>
-		<a href="/about">Sobre</a>
-		<a href="/rss.xml">RSS</a>
-	</div>
-	<p class="copyright">
-		&copy; {today.getFullYear()} VitaeSheet. Conteúdo de fã para fãs.
-	</p>
-	<p class="made-with-love">Feito com amor ❤️ Gohadug_Ravnos</p>
 </footer>
 <style>
 	footer {
-		padding: 2em 1em 4em 1em;
-		background: var(--bg-card);
+		padding: var(--spacing-2xl) var(--spacing-md) var(--spacing-3xl);
+		background: var(--bg-surface);
 		border-top: 1px solid var(--border);
 		color: var(--text-muted);
+	}
+	.footer-inner {
+		max-width: var(--max-width);
+		margin: 0 auto;
 		text-align: center;
-	}
-	.dark-pack {
-		max-width: 700px;
-		margin: 0 auto 2em auto;
-	}
-	.dark-pack a {
-		color: var(--text-secondary);
 	}
 	.footer-links {
 		display: flex;
 		justify-content: center;
-		gap: 2em;
-		margin-bottom: 1em;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		margin-bottom: var(--spacing-xl);
 	}
 	.footer-links a {
 		text-decoration: none;
 		color: var(--text-secondary);
-		font-size: 0.9em;
+		font-size: 0.88em;
+		font-weight: 500;
+		transition: color 0.2s ease;
 	}
 	.footer-links a:hover {
 		color: var(--blood-glow);
+		text-decoration: none;
+	}
+	.divider {
+		color: var(--border-light);
+		font-size: 0.8em;
+	}
+	.dark-pack {
+		max-width: 600px;
+		margin: 0 auto var(--spacing-lg);
+		font-size: 0.72em;
+		line-height: 1.6;
+	}
+	.dark-pack a {
+		color: var(--text-muted);
+		text-decoration: underline;
+	}
+	.dark-pack a:hover {
+		color: var(--text-secondary);
 	}
 	.copyright {
-		font-size: 0.8em;
+		font-size: 0.78em;
 		margin: 0;
 	}
 	.made-with-love {
-		font-size: 0.8em;
-		margin: 0.5em 0 0;
-		opacity: 0.7;
+		font-size: 0.78em;
+		margin: var(--spacing-xs) 0 0;
+		opacity: 0.6;
+	}
+	@media (max-width: 480px) {
+		.footer-links { gap: 0.4em; }
+		.divider { display: none; }
+		.footer-links { flex-direction: column; gap: 0.6em; }
 	}
 </style>

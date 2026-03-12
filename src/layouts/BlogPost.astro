@@ -23,47 +23,55 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.hero-image {
 				width: 100%;
+				max-width: var(--max-width);
+				margin: 0 auto var(--spacing-xl);
 			}
 			.hero-image img {
 				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
+				width: 100%;
+				border-radius: var(--radius-lg);
 				box-shadow: var(--box-shadow);
 			}
 			.prose {
-				width: 720px;
+				width: var(--max-width);
 				max-width: calc(100% - 2em);
 				margin: auto;
-				padding: 1em;
+				padding: var(--spacing-md);
 				color: var(--text-primary);
 			}
-			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
+			.article-header {
+				margin-bottom: var(--spacing-2xl);
+				padding-bottom: var(--spacing-xl);
+				border-bottom: 1px solid var(--border);
 			}
-			.title h1 {
-				margin: 0 0 0.5em 0;
+			.article-header h1 {
+				margin: 0 0 var(--spacing-md) 0;
+				line-height: 1.2;
 			}
-			.date {
-				margin-bottom: 0.5em;
+			.meta {
+				display: flex;
+				align-items: center;
+				gap: var(--spacing-md);
 				color: var(--text-muted);
+				font-size: 0.88em;
+				font-weight: 500;
 			}
 			.last-updated-on {
 				font-style: italic;
 			}
 			.post-cta {
 				text-align: center;
-				margin: 3em 0 1em;
-				padding: 2em;
+				margin: var(--spacing-2xl) 0 var(--spacing-md);
+				padding: var(--spacing-xl);
 				background: var(--bg-card);
 				border: 1px solid var(--border);
-				border-radius: 12px;
+				border-radius: var(--radius-lg);
 			}
 			.post-cta p {
 				color: var(--text-secondary);
-				margin-bottom: 1em;
+				margin-bottom: var(--spacing-md);
+				font-size: 1.05em;
+				line-height: 1.6;
 			}
 		</style>
 	</head>
@@ -72,24 +80,25 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
-				</div>
 				<div class="prose">
-					<div class="title">
-						<div class="date">
+					<div class="article-header">
+						<h1>{title}</h1>
+						<div class="meta">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
-									<div class="last-updated-on">
-										Atualizado em <FormattedDate date={updatedDate} />
-									</div>
+									<span class="last-updated-on">
+										· Atualizado em <FormattedDate date={updatedDate} />
+									</span>
 								)
 							}
 						</div>
-						<h1>{title}</h1>
-						<hr />
 					</div>
+					{heroImage && (
+						<div class="hero-image">
+							<Image width={1020} height={510} src={heroImage} alt="" />
+						</div>
+					)}
 					<slot />
 					<div class="post-cta">
 						<p>Chega de fichas perdidas, anotações bagunçadas e XP calculado na mão. O VitaeSheet organiza tudo pra você — de graça.</p>
