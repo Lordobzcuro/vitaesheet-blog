@@ -265,6 +265,70 @@ Comunicação e controle sobre os mortos.
 
 ---
 
+### Obtenebração
+
+**Clã:** Lasombra.
+
+Controle sobre sombras e escuridão. A Disciplina mais atmosférica do jogo — e uma das mais temidas.
+
+- **Nível 1 — Jogo de Sombras:** Manipule sombras existentes. Apague luzes, crie formas ameaçadoras, escureça um cômodo. Ótimo para intimidação.
+- **Nível 2 — Mortalha das Trevas:** Crie uma área de escuridão total. Ninguém enxerga dentro — exceto você. Anula vantagens visuais de inimigos.
+- **Nível 3 — Braços do Abismo:** Tentáculos de sombra sólida brotam de superfícies escuras. Podem agarrar, prender e causar dano. Cada tentáculo tem Força igual ao seu nível de Obtenebração.
+- **Nível 4 — Noite Sem Fim:** Crie uma cúpula de escuridão massiva que cobre um quarteirão inteiro. Dentro dela, nenhuma luz funciona. Mortais entram em pânico.
+- **Nível 5 — Forma de Trevas:** Seu corpo se torna sombra viva. Imune a dano físico, pode se mover por qualquer fresta onde a escuridão alcance. Ataques causam dano por frio sobrenatural.
+
+**Erro comum:** Achar que Obtenebração é só "estética". Os Braços do Abismo são uma das armas mais eficientes do jogo — múltiplos ataques sem custo de ação. Lasombra em ambientes escuros são pesadelos.
+
+---
+
+### Quietus
+
+**Clã:** Assamita.
+
+A Disciplina dos assassinos. Combina silêncio sobrenatural com manipulação letal de sangue.
+
+- **Nível 1 — Silêncio da Morte:** Crie uma bolha de silêncio total ao seu redor. Nenhum som entra ou sai. Perfeito para assassinatos discretos — e para anular Disciplinas que exigem voz (como Comando da Dominação).
+- **Nível 2 — Escorpião de Sangue:** Cuspa seu próprio sangue como ácido. Causa dano agravado. Custa Pontos de Sangue, mas ignora armaduras.
+- **Nível 3 — Toque de Sangue:** Envenene uma arma com seu sangue. Cada golpe causa dano extra e drena a Força de Vontade do alvo.
+- **Nível 4 — Agonia:** Um toque causa dor incapacitante. O alvo precisa de uma rolagem de Força de Vontade (dificuldade 9) para fazer qualquer coisa além de gritar.
+- **Nível 5 — Gosto da Morte:** Cuspa sangue à distância como um projétil ácido massivo. Dano agravado brutal e sem chance de esquiva convencional.
+
+**Erro comum:** Subestimar o nível 1. Silêncio da Morte não parece letal, mas anula Dominação (que exige comando verbal), impede pedidos de socorro e torna emboscadas perfeitas.
+
+---
+
+### Quimerismo
+
+**Clã:** Ravnos.
+
+Criação de ilusões. Do truque simples ao pesadelo indistinguível da realidade.
+
+- **Nível 1 — Ignis Fatuus:** Crie uma ilusão que afeta um sentido (visual OU sonora OU olfativa). Simples mas útil — um ruído distraindo um guarda, um cheiro de fumaça causando evacuação.
+- **Nível 2 — Fata Morgana:** Ilusões que afetam múltiplos sentidos simultaneamente. Agora suas ilusões podem ser vistas, ouvidas e até "tocadas" (embora não tenham substância real).
+- **Nível 3 — Aparição:** Crie ilusões que se movem e reagem de forma autônoma. Um guarda ilusório que "patrulha", uma pessoa falsa que "conversa". Não precisa de concentração constante.
+- **Nível 4 — Permanência:** Suas ilusões persistem mesmo quando você vai embora. Sem limite de duração. Perfeito para armadilhas e desinformação de longo prazo.
+- **Nível 5 — Realidade Horrenda:** A ilusão se torna real para o alvo. Se ele vê fogo, **sente** a queimadura. Se vê um abismo, **cai**. Dano ilusório pode causar inconsciência real — e em casos extremos, parada cardíaca em mortais.
+
+**Erro comum:** Criar ilusões exageradas demais. Uma parede que não estava ali chama menos atenção do que um dragão no meio da rua. As melhores ilusões são as que ninguém questiona.
+
+---
+
+### Serpentis
+
+**Clã:** Seguidores de Set.
+
+Poderes ligados à serpente e à corrupção. Tão perturbadores quanto eficientes.
+
+- **Nível 1 — Olhos da Serpente:** Seus olhos se tornam dourados e reptilianos. Qualquer um que faça contato visual fica paralisado — não pode agir, se mover ou desviar o olhar. Funciona em vampiros e mortais.
+- **Nível 2 — Língua da Serpente:** Sua língua se transforma — bifurcada e com meio metro de comprimento. Funciona como arma (dano agravado) e permite extrair sangue à distância.
+- **Nível 3 — Pele da Víbora:** Sua pele se torna escamosa e endurecida. +1 dado de absorção, e você pode se espremer por espaços impossíveis como uma serpente.
+- **Nível 4 — Forma da Serpente:** Transforme-se em uma cobra venenosa de dois metros. Ganhe sentidos térmicos, movimentação silenciosa e uma picada com veneno sobrenatural.
+- **Nível 5 — Coração das Trevas:** Remova seu próprio coração e esconda-o em local seguro. Sem coração no corpo, você é **imune a estacas** e o torpor por dano é muito mais difícil. O risco: se alguém encontrar o coração, você está completamente à mercê dele.
+
+**Erro comum:** Ignorar Olhos da Serpente. É um dos poderes de nível 1 mais fortes do jogo — paralisia sem custo de sangue. A limitação é exigir contato visual, mas numa conversa isso é quase garantido.
+
+---
+
 ## Tabela Rápida: Clã → Disciplinas
 
 | Clã | Disciplina 1 | Disciplina 2 | Disciplina 3 |
