@@ -1,0 +1,15 @@
+name: Publicar posts agendados
+
+on:
+  schedule:
+    # 10:00 BRT = 13:00 UTC | 20:00 BRT = 23:00 UTC
+    - cron: '0 13 * * *'
+    - cron: '0 23 * * *'
+  workflow_dispatch: # permite rodar manualmente pelo GitHub
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        run: curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"

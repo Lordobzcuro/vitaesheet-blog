@@ -33,7 +33,7 @@ Recriar isso online exige intenção. Não acontece por acidente.
 
 ## 1. Escolha Uma Plataforma — E Pare de Procurar a Perfeita
 
-A armadilha clássica: gastar semanas comparando Roll20, Foundry, Owlbear Rodeo e mais vinte opções enquanto a crônica continua parada.
+A armadilha clássica: gastar semanas comparando dezenas de plataformas enquanto a crônica continua parada.
 
 **A verdade:** RPG Vampiro precisa de menos ferramentas do que você imagina.
 
@@ -191,7 +191,7 @@ O Príncipe de São Paulo ainda está esperando a resposta do seu Nosferatu. A C
 
 <details class="faq-item">
 <summary>Qual a melhor plataforma para jogar RPG Vampiro online?</summary>
-<p>Discord é a escolha mais prática para RPG Vampiro. Ele oferece voz, vídeo, canais de texto separados (essenciais para intrigas) e bots de dados. Plataformas como Roll20 ou Foundry são opcionais — Vampiro não depende de mapas ou grids.</p>
+<p>Discord é a escolha mais prática para RPG Vampiro. Ele oferece voz, vídeo, canais de texto separados (essenciais para intrigas) e bots de dados. Plataformas com mapas e grids são opcionais — Vampiro não depende disso.</p>
 </details>
 
 <details class="faq-item">
