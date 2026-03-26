@@ -211,7 +211,7 @@ Documento no Drive, fichas em papel, XP no WhatsApp, resumos no Discord. Informa
 
 O **VitaeSheet** centraliza fichas, XP, notas do narrador e visão geral da mesa — tudo acessível por todos, em tempo real, de qualquer dispositivo.
 
-**[Organize sua mesa grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Organize sua mesa grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 

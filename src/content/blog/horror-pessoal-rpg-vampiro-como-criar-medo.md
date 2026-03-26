@@ -228,7 +228,7 @@ Horror pessoal deixa marcas — Humanidade caindo, Força de Vontade gasta, rela
 
 O **VitaeSheet** rastreia cada mudança automaticamente. Humanidade, XP, notas de sessão — tudo acessível pelo narrador quando ele precisa preparar a próxima consequência atrasada.
 
-**[Crie sua ficha grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Crie sua ficha grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 

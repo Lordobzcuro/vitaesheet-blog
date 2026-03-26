@@ -111,7 +111,7 @@ Antes da primeira sessão, converse com cada jogador e responda junto com ele:
 
 Se cada personagem tiver pelo menos uma conexão com a cidade e uma com outro jogador, a crônica se escreve sozinha.
 
-> **Dica:** Use o [VitaeSheet](https://app.vitaesheet.app) pra organizar as fichas dos jogadores. Assim você tem acesso a todas as fichas num só lugar — sem depender de PDF perdido ou foto de WhatsApp.
+> **Dica:** Use o [VitaeSheet](https://vitaesheet.app) pra organizar as fichas dos jogadores. Assim você tem acesso a todas as fichas num só lugar — sem depender de PDF perdido ou foto de WhatsApp.
 
 ---
 
@@ -154,7 +154,7 @@ Depois da primeira sessão, você vai ter material pra semanas. Anote:
 
 Esse ciclo entre sessões é o que mantém a crônica viva. Cada sessão gera consequências que alimentam a próxima.
 
-> **Dica prática:** Com o [VitaeSheet](https://app.vitaesheet.app), você acompanha a evolução dos personagens, distribui XP e mantém tudo sincronizado — sem precisar pedir ficha atualizada pros jogadores.
+> **Dica prática:** Com o [VitaeSheet](https://vitaesheet.app), você acompanha a evolução dos personagens, distribui XP e mantém tudo sincronizado — sem precisar pedir ficha atualizada pros jogadores.
 
 ---
 

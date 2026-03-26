@@ -147,7 +147,7 @@ Sessão zero gera decisões: cidade, NPCs, relações entre personagens, limites
 
 O **VitaeSheet** centraliza fichas, notas do narrador e XP num lugar só — acessível por toda a mesa, em qualquer dispositivo.
 
-**[Crie sua mesa grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Crie sua mesa grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 

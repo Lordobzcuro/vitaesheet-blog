@@ -239,7 +239,7 @@ A pior parte de escolher um clã é preencher a ficha depois. Distribuir pontos,
 
 O **VitaeSheet** resolve isso. Ficha digital, automática, que salva na nuvem e sincroniza em tempo real com sua mesa.
 
-**[Criar minha ficha grátis no VitaeSheet](https://app.vitaesheet.app)**
+**[Criar minha ficha grátis no VitaeSheet](https://vitaesheet.app)**
 
 ---
 

@@ -125,7 +125,7 @@ Imagine uma sessão onde:
 
 Isso não é fantasia. É o que acontece quando você substitui a burocracia por uma ferramenta que foi feita pra resolver exatamente esse problema.
 
-O [Vitae Sheet](https://app.vitaesheet.app) nasceu dessa frustração. Feito por narradores de RPG Vampiro que cansaram de ser contadores, ele centraliza fichas, XP e visão do narrador num lugar só:
+O [Vitae Sheet](https://vitaesheet.app) nasceu dessa frustração. Feito por narradores de RPG Vampiro que cansaram de ser contadores, ele centraliza fichas, XP e visão do narrador num lugar só:
 
 - **Painel do Narrador** — veja todas as fichas da mesa em tempo real, sem perguntar nada
 - **XP com um clique** — distribua pontos de experiência sem calculadora

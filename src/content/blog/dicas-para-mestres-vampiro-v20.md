@@ -111,4 +111,4 @@ Situação: "O Príncipe quer algo que está no porto. O Sabbat também. Os joga
 
 ---
 
-*Organizar fichas, calcular XP e manter a crônica em dia dá trabalho. O [VitaeSheet](https://app.vitaesheet.app) cuida da parte mecânica pra você focar no que importa: a história.*
+*Organizar fichas, calcular XP e manter a crônica em dia dá trabalho. O [VitaeSheet](https://vitaesheet.app) cuida da parte mecânica pra você focar no que importa: a história.*

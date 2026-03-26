@@ -151,7 +151,7 @@ Você investiu tempo criando uma história. Agora precisa de uma ficha que faça
 
 O **VitaeSheet** faz exatamente isso. Ficha digital, acessível de qualquer lugar, pensada pra quem joga RPG Vampiro de verdade.
 
-**[Criar minha ficha grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Criar minha ficha grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 

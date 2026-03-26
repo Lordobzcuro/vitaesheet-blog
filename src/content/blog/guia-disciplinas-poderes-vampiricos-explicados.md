@@ -400,4 +400,4 @@ Poderes ligados à serpente e à corrupção. Tão perturbadores quanto eficient
 
 ---
 
-*Quer registrar suas Disciplinas sem se perder em anotações? O [VitaeSheet](https://app.vitaesheet.app) organiza sua ficha visualmente e mantém tudo acessível durante a sessão.*
+*Quer registrar suas Disciplinas sem se perder em anotações? O [VitaeSheet](https://vitaesheet.app) organiza sua ficha visualmente e mantém tudo acessível durante a sessão.*

@@ -66,7 +66,7 @@ A organização não deveria ser o seu segundo emprego como narrador. Ela deve s
 
 O **VitaeSheet** foi criado para matar a fragmentação digital. Fichas, XP, NPCs e notas centralizados. Visão do narrador em tempo real. Sem abas infinitas, sem cadernos perdidos.
 
-**[Pare de perder tempo e comece a narrar →](https://app.vitaesheet.app)**
+**[Pare de perder tempo e comece a narrar →](https://vitaesheet.app)**
 
 ---
 

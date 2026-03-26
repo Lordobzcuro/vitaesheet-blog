@@ -214,7 +214,7 @@ Rastrear XP de 4-5 jogadores, session por sessão, com bônus variáveis e marco
 
 O **VitaeSheet** registra XP automaticamente, com histórico completo. O narrador distribui com um clique, os jogadores veem em tempo real, e ninguém precisa perguntar "quanto XP eu tenho mesmo?".
 
-**[Crie sua mesa grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Crie sua mesa grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 

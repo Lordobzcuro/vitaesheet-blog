@@ -97,4 +97,4 @@ RPG Vampiro é sobre política, horror pessoal e relações. A ficha mais intere
 
 ---
 
-*Quer montar sua ficha sem se perder? O [VitaeSheet](https://app.vitaesheet.app) organiza tudo visualmente e calcula os pontos pra você.*
+*Quer montar sua ficha sem se perder? O [VitaeSheet](https://vitaesheet.app) organiza tudo visualmente e calcula os pontos pra você.*

@@ -216,7 +216,7 @@ Quanto mais NPCs relevantes sua crônica tem, mais fácil é perder o controle. 
 
 O **VitaeSheet** dá ao narrador visão completa da mesa — fichas, NPCs, histórico — tudo num lugar só.
 
-**[Organize sua crônica grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Organize sua crônica grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 

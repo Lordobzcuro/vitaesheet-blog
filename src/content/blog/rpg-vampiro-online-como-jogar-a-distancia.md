@@ -102,7 +102,7 @@ Fichas em PDF não editam direito, não salvam automaticamente e não sincroniza
 
 É exatamente pra isso que o **VitaeSheet** existe. Ficha digital, acessível de qualquer lugar, com tudo que sua mesa online precisa sem precisar instalar nada.
 
-**[Crie sua ficha grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Crie sua ficha grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 
@@ -160,7 +160,7 @@ Isso mantém o grupo engajado durante a semana e cria material narrativo que ali
 - [ ] Bot de dados instalado (Avrae, Dice Maiden ou similar)
 - [ ] Playlist ambiente selecionada
 - [ ] Regras de etiqueta combinadas com o grupo
-- [ ] Fichas dos jogadores acessíveis online ([VitaeSheet](https://app.vitaesheet.app))
+- [ ] Fichas dos jogadores acessíveis online ([VitaeSheet](https://vitaesheet.app))
 - [ ] Sessão Zero agendada — sim, mesmo que o grupo já se conheça
 
 ---
@@ -175,7 +175,7 @@ RPG Vampiro online não é uma versão inferior do presencial. É uma versão **
 
 O Príncipe de São Paulo ainda está esperando a resposta do seu Nosferatu. A Corte de Sangue não foi cancelada — só mudou de endereço.
 
-**[Monte sua ficha e volte pra mesa →](https://app.vitaesheet.app)**
+**[Monte sua ficha e volte pra mesa →](https://vitaesheet.app)**
 
 ---
 

@@ -223,7 +223,7 @@ Rastrear sangue gasto, Humanidade flutuando, Frenesis que mudaram atributos temp
 
 O **VitaeSheet** rastreia tudo automaticamente. Pontos de sangue, Humanidade, XP — tudo na nuvem, acessível pelo narrador em tempo real.
 
-**[Crie sua ficha grátis no VitaeSheet →](https://app.vitaesheet.app)**
+**[Crie sua ficha grátis no VitaeSheet →](https://vitaesheet.app)**
 
 ---
 
